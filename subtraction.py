@@ -17,3 +17,4 @@ from astropy.nddata import NDData
 
 matplotlib.use('TkAgg') # Use TkAgg backend for interactive plotting
 
+print("Hello World")
