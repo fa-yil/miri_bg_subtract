@@ -5,6 +5,11 @@
 papers/
 
 data/
-miri_notebook/
-!MIRI_MRS_reduction_SPT0418-47_PAH_ch3long.ipynb
+miri_notebook/.ipynb_checkpoints/
+miri_notebook/poststage3/
+miri_notebook/stage3/
+miri_notebook/stage2/
+miri_notebook/stage1/
+miri_notebook/uncal_files/
+
 notes.txt
