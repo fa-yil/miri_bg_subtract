@@ -78,7 +78,7 @@ wheels = [
 
 [[package]]
 name = "asdf"
-version = "4.2.0"
+version = "4.5.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "asdf-standard" },
@@ -90,9 +90,9 @@ dependencies = [
     { name = "pyyaml" },
     { name = "semantic-version" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/91/0a/afee176ffb1e05751c4a4080070760dd45fdf113bd8ddd7e96973e67105e/asdf-4.2.0.tar.gz", hash = "sha256:cba00a10cde18deb20100e001fe41022f5c0cda02720dda9f716fb2150a46cf7", size = 892353 }
+sdist = { url = "https://files.pythonhosted.org/packages/29/8f/b03f590bcffeb6227e97128ad80ab7a611df99cd0dc9ffcd9065406bad0e/asdf-4.5.0.tar.gz", hash = "sha256:1f37979263cac53b8f7b078c521fda8aa9a08cd5d2badb9aacec34d6badd2dc1", size = 900039 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f8/be/aeb59393bf7f322845cb98ad633393320993d9de15cb9a1e8d5e74612b70/asdf-4.2.0-py3-none-any.whl", hash = "sha256:233247c3e7e33c86b7444be0453890ec3b99ef45bbf36023fb98ce51aba72d95", size = 962184 },
+    { url = "https://files.pythonhosted.org/packages/59/3a/175811640366b634b03f32b97bffa08c7e6cc73b6832702fb38a255f4e1c/asdf-4.5.0-py3-none-any.whl", hash = "sha256:b4738f3bda07c3bc61c8a1b8ac450af51e1fe2c49272e30c7ba9ed76f5360343", size = 970611 },
 ]
 
 [[package]]
@@ -128,11 +128,11 @@ wheels = [
 
 [[package]]
 name = "asdf-standard"
-version = "1.3.0"
+version = "1.4.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/b1/52/eab49f281c5f680083b07179c9f43c794c27f364c9334e9c0cf846dd497e/asdf_standard-1.3.0.tar.gz", hash = "sha256:5958961f399dead2000a78724da37f5aeeb0499a780bbd9ae4fc3ecbe3eaed64", size = 273495 }
+sdist = { url = "https://files.pythonhosted.org/packages/34/09/95ba03c85b044c717543d4aeb0f50b5c96aaeda7390a527cbb155a7e0550/asdf_standard-1.4.0.tar.gz", hash = "sha256:0c5f121d0db87cb7780d61a087f392c5104ce208016cfb2a130c9cea912cfddc", size = 275426 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/4e/b0/13efe60b81af7f3efd7132824c707efd7319cb5cc4e49fa0e82e5ef26b48/asdf_standard-1.3.0-py3-none-any.whl", hash = "sha256:358352d6eefe2043a3fa0d0ecdf5561e30af0b7238df61683768288e35b18734", size = 86215 },
+    { url = "https://files.pythonhosted.org/packages/b3/b6/2bfee05505425931adaec51ad2aa676d30abcb7c4f306f8541e2528e5abc/asdf_standard-1.4.0-py3-none-any.whl", hash = "sha256:884e83e113a9e6802047d51db113bc6ffcdf60451f74ce17ea80579d35388cf7", size = 96781 },
 ]
 
 [[package]]
@@ -255,7 +255,7 @@ wheels = [
 
 [[package]]
 name = "bayesicfitting"
-version = "3.2.3"
+version = "3.2.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "astropy" },
@@ -264,9 +264,9 @@ dependencies = [
     { name = "numpy" },
     { name = "scipy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4e/5e/943aaea867262e2a6615dc11b55f8ddc8017dbfda8948e7bd20d005aad0f/BayesicFitting-3.2.3.tar.gz", hash = "sha256:e968cfa4288b1c75571fc845d62657236569de5110d3b6d898e2d8d5deb77c5d", size = 7370474 }
+sdist = { url = "https://files.pythonhosted.org/packages/c6/b7/59d548c4465b43fc4be85331030205d1629ddac375ac489593d534017596/BayesicFitting-3.2.4.tar.gz", hash = "sha256:d60dfa14c02f4722b704169143247f7ea4e5ffbca04728461df49a29298fa4c8", size = 8507486 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/22/c7/a7b313848c1ef764044252c091da6f5a5681ca5736ea0800c815e98de509/BayesicFitting-3.2.3-py3-none-any.whl", hash = "sha256:5762b21f759801594725309c104a291f46283fc1359e52389ffe7c66edd74a74", size = 5670918 },
+    { url = "https://files.pythonhosted.org/packages/5a/ba/f749a79ffbab390f70bdbe6d680dbf7fade83443e26bd280949aea535c20/BayesicFitting-3.2.4-py3-none-any.whl", hash = "sha256:2eca8882e1cddbb2fc3f736ea2b27fc0edaaca20e128229a2cc0c216b06d53ab", size = 5676351 },
 ]
 
 [[package]]
@@ -440,7 +440,7 @@ wheels = [
 
 [[package]]
 name = "crds"
-version = "12.1.10"
+version = "13.0.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "asdf" },
@@ -450,9 +450,9 @@ dependencies = [
     { name = "parsley" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/08/de/2055e7203b71d64557fac55a96313839fca7e7adecc6560b2e38471bf6e1/crds-12.1.10.tar.gz", hash = "sha256:9f0384e70c1a3b3677710da30444a14319126dbb55e587264534216e7b87ca1e", size = 14217181 }
+sdist = { url = "https://files.pythonhosted.org/packages/7a/a7/c8382bf920e9b319e8e29920fcf3224a39cd708071d1268929b25e0611d5/crds-13.0.6.tar.gz", hash = "sha256:255f910d5f5ad1e6384b615814a6b0c8a18aca650e453b336ff901403e881ac4", size = 14227864 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/33/74/d308085420d938751d5753df19664db6cf16c4683aa942ec13b96c3b693b/crds-12.1.10-py3-none-any.whl", hash = "sha256:d160fa933fd191770726fe86e9c5d6c668d7b0a02640939e7d0e8c09c0869287", size = 1158424 },
+    { url = "https://files.pythonhosted.org/packages/c8/92/13aac9111b90bc5b34eb15dc539c762daba1affa0407b025543598c15a9c/crds-13.0.6-py3-none-any.whl", hash = "sha256:6967de9aa39a5795778ce0ab33e48588517444a7e1258397d54bd08f5925e76a", size = 1169603 },
 ]
 
 [[package]]
@@ -578,11 +578,11 @@ wheels = [
 
 [[package]]
 name = "filelock"
-version = "3.18.0"
+version = "3.20.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/0a/10/c23352565a6544bdc5353e0b15fc1c563352101f30e24bf500207a54df9a/filelock-3.18.0.tar.gz", hash = "sha256:adbc88eabb99d2fec8c9c1b229b171f18afa655400173ddc653d5d01501fb9f2", size = 18075 }
+sdist = { url = "https://files.pythonhosted.org/packages/58/46/0028a82567109b5ef6e4d2a1f04a583fb513e6cf9527fcdd09afd817deeb/filelock-3.20.0.tar.gz", hash = "sha256:711e943b4ec6be42e1d4e6690b48dc175c822967466bb31c0c293f34334c13f4", size = 18922 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/4d/36/2a115987e2d8c300a974597416d9de88f2444426de9571f4b59b2cca3acc/filelock-3.18.0-py3-none-any.whl", hash = "sha256:c401f4f8377c4464e6db25fff06205fd89bdd83b65eb0488ed1b160f780e21de", size = 16215 },
+    { url = "https://files.pythonhosted.org/packages/76/91/7216b27286936c16f5b4d0c530087e4a54eead683e6b0b73dd0c64844af6/filelock-3.20.0-py3-none-any.whl", hash = "sha256:339b4732ffda5cd79b13f4e2711a31b0365ce445d95d243bb996273d072546a2", size = 16054 },
 ]
 
 [[package]]
@@ -634,6 +634,8 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "astropy" },
+    { name = "astroquery" },
+    { name = "jupyter" },
     { name = "jwst" },
     { name = "matplotlib" },
     { name = "numpy" },
@@ -652,7 +654,9 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "astropy", specifier = ">=7.0.1" },
-    { name = "jwst", specifier = ">=1.18.1" },
+    { name = "astroquery", specifier = ">=0.4.10" },
+    { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "jwst", specifier = ">=1.19.2" },
     { name = "matplotlib", specifier = ">=3.10.1" },
     { name = "numpy", specifier = ">=2.2.4" },
     { name = "pandas", specifier = ">=2.2.3" },
@@ -667,7 +671,7 @@ dev = [{ name = "jupyter", specifier = ">=1.1.1" }]
 
 [[package]]
 name = "gwcs"
-version = "0.24.0"
+version = "0.25.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "asdf" },
@@ -677,9 +681,9 @@ dependencies = [
     { name = "numpy" },
     { name = "scipy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/66/be/8930bba13f678c2dfca87857544966c3995fb59f2b1cf6aff07ebbdf22e6/gwcs-0.24.0.tar.gz", hash = "sha256:6387bd4492ab25e74522b6ead1971602462ed57432e4eb274a3734426d166e60", size = 212592 }
+sdist = { url = "https://files.pythonhosted.org/packages/18/c2/71e2929c2cf91daa38f0d7d48aed8a1acbd2bbc20343c098c41fd4ad16be/gwcs-0.25.2.tar.gz", hash = "sha256:84d08371222d47382e50914c526f65ffc0b827e3c39e14c5ed97ae01143e1a8a", size = 346279 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e2/e3/5c4e32c05ad6a6577530a053a84ff4bf43efd52f55a1ca36031a31fca3b1/gwcs-0.24.0-py3-none-any.whl", hash = "sha256:19c6f68193bf17468d8f0cbe1ec36235a6c380e766576595f891d6037ef3c694", size = 169782 },
+    { url = "https://files.pythonhosted.org/packages/d6/27/9af45a76ced58934818762b477bf57cedf76c651793d370692dd208ad80b/gwcs-0.25.2-py3-none-any.whl", hash = "sha256:731c35062ec39dc6040689a82ebe2f86d97ef51c9855e170ca73997e141b150e", size = 182183 },
 ]
 
 [[package]]
@@ -1185,11 +1189,10 @@ wheels = [
 
 [[package]]
 name = "jwst"
-version = "1.18.1"
+version = "1.19.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "asdf" },
-    { name = "asdf-astropy" },
     { name = "astropy" },
     { name = "bayesicfitting" },
     { name = "crds" },
@@ -1201,7 +1204,6 @@ dependencies = [
     { name = "opencv-python-headless" },
     { name = "packaging" },
     { name = "photutils" },
-    { name = "poppy" },
     { name = "pyparsing" },
     { name = "requests" },
     { name = "scikit-image" },
@@ -1215,14 +1217,14 @@ dependencies = [
     { name = "tweakwcs" },
     { name = "wiimatch" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/56/7f/c72a40e32fc2d4316c7ded582237e7666a1a471bc93937ccc1867e4f5587/jwst-1.18.1.tar.gz", hash = "sha256:65791903fe964891f9d51bad24aa288d7fd428df7401e4ad8d0bf46f024a18fe", size = 16141918 }
+sdist = { url = "https://files.pythonhosted.org/packages/81/cc/dce3ce384e3f5ceda437552d79458de498a83c2064ffcec4cf0ea53ec5fe/jwst-1.19.2.tar.gz", hash = "sha256:5889a75304ddaa5797b6c6979f01f601e9442280c788a4201bb841664fe58621", size = 15976519 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/02/ac/971cb0ba723115b7e39b6cd062ebe22e95ec75c7a76ad4edeaf361a411c0/jwst-1.18.1-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:910e0db348d0d9e0e387201dc87afeadd0eaaea92d2aa5a51b6c6af7359dbd62", size = 13169106 },
-    { url = "https://files.pythonhosted.org/packages/a9/b8/462cf5269a5c25e87d92d1962530e62fa63bee28a85041b12efdda3d736a/jwst-1.18.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:af80356f3bbb3d8ef364903b19e4d06084a3d5882e13b6265e87c68794cb0969", size = 13169097 },
-    { url = "https://files.pythonhosted.org/packages/97/c2/7df9b4f0093090468ee900ee8f549340ff6ff55f960ce26a8b661d3a3855/jwst-1.18.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:83fd3ae63abab950585225afab1f2343ecfc09c91e94503ebdddb33b0ebcd881", size = 13306029 },
-    { url = "https://files.pythonhosted.org/packages/5b/e2/12612ecdba3e062123c086e28f65e61110535d89cc0ce62a7867a9812993/jwst-1.18.1-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:113694a15218c919c252decb8be764cf6b086753990876ed9e4a83ae32c72694", size = 13169134 },
-    { url = "https://files.pythonhosted.org/packages/89/3b/249fb58858fb224e80aa479105d85afaf1feb13bd4568a4af8c5f4418a49/jwst-1.18.1-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:a5df384a0424c56e65d9d8be37efbc98820407f8e82c9139b34a55de0d79cabd", size = 13169121 },
-    { url = "https://files.pythonhosted.org/packages/d9/55/3f1548c2557f3f225d049d233d7ccee907635c7f6394e526985d4bf5f1ac/jwst-1.18.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:531471df2e92f0dba64e519507f9c4fe27175a379e1dc167df329121714ff816", size = 13305673 },
+    { url = "https://files.pythonhosted.org/packages/fa/5a/d7f181c32217a753fdb875af892dac801ccbbc5a96215d8ae551010274ab/jwst-1.19.2-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:4f3010b163f0036550054b6b89a412dad8517880a7d64aa04ba600f1b5853a81", size = 13331587 },
+    { url = "https://files.pythonhosted.org/packages/a5/06/bfb88c119bc5db515e608e09f06b5dffd591147f90910bc156e2f15cb752/jwst-1.19.2-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:5d22859d20263da443446f3154fee5b6d74a15ddb418c8a1a4192d9c0d33b808", size = 13330229 },
+    { url = "https://files.pythonhosted.org/packages/55/dc/8f1897274bf918e129cbdcb7070a842011706cdf3446e681c46d81774d76/jwst-1.19.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:a954a47c2392bfd609dad4ebfcfca224bd00788e81aaee381f6fd78b791f56c2", size = 13467303 },
+    { url = "https://files.pythonhosted.org/packages/16/bc/c6e7ff153a7e4b81706f252f7f0606184fb31b8ca460e20bc84c827b128f/jwst-1.19.2-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:8aec7b1000763f8589f941d104f42c3928982f2feae10befdcf5f9ca2c4b3af8", size = 13331621 },
+    { url = "https://files.pythonhosted.org/packages/f8/97/8f1a5e619339f693488f30fa46a42ad25e24a73df747e57c1509fef7f8dc/jwst-1.19.2-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:725ca588579b9694bf29baac7fbfdc2fc9176ecaedb558dae75dac49ed99a8a9", size = 13330251 },
+    { url = "https://files.pythonhosted.org/packages/1a/e5/5e5d817a64fa55708b0e36d108043d600ed1c654b162f671c25b0048b974/jwst-1.19.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:f719c76bdf7ab71172e4571cbd62954eb66bdc52dd27b78480ce02709a6db670", size = 13467626 },
 ]
 
 [[package]]
@@ -2411,7 +2413,7 @@ wheels = [
 
 [[package]]
 name = "stcal"
-version = "1.12.0"
+version = "1.14.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "asdf" },
@@ -2426,19 +2428,19 @@ dependencies = [
     { name = "spherical-geometry" },
     { name = "tweakwcs" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/9f/ea/91d3aafb0dcc25ff63e33931c99b4984dcbd40c85922c60974ef1fa3ae40/stcal-1.12.0.tar.gz", hash = "sha256:9353562e02b212d11134697911365af56f645b8af86b612f8412800bf2ce61f1", size = 1246909 }
+sdist = { url = "https://files.pythonhosted.org/packages/86/37/bd380b8865016441b73023ecaa733602f00da5884757d7c775cab0de3d98/stcal-1.14.1.tar.gz", hash = "sha256:12dff3b0c906ce40edc4d7e6a7d828bb0b59cba02a507c7872a638b2a80d7cf8", size = 1186635 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/15/1f/dd8d50d726538a5a4daaa936a8a71b347cf06b58c00fef9b8e4520ad09b4/stcal-1.12.0-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:817470c7bc888399b96f925433d6361bcb6da66e39066597d2bbefdc1ae8aeaf", size = 1082809 },
-    { url = "https://files.pythonhosted.org/packages/93/60/c00f30ff9896ef572eab53688a71a7d49200adc0d4a5e07043f2e3d82a00/stcal-1.12.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:6e8dc81b34e5aa77daa714d718df53824b75123d5efac5ae4cc42db71b3e3167", size = 1059935 },
-    { url = "https://files.pythonhosted.org/packages/50/14/84165b5bf11b0ce2490f7840fd0bfe3c05366b1748b2132ff302451b4a80/stcal-1.12.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5aee75b24494917c56e6b04e21b1325f3216cb054f5818060ffc518e141fde0f", size = 2804404 },
-    { url = "https://files.pythonhosted.org/packages/bb/bd/b1c3c816f8ab073b0d0832f48b4142d5a8ac6366fa9bc8afe2d8357a8de8/stcal-1.12.0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:657d36dcf4b2369acfdcfe8ce7f52c293d3c25a293b45a93b767ae9416850dad", size = 1078817 },
-    { url = "https://files.pythonhosted.org/packages/5c/26/3b73584661d5762622b034a0597e26fce4b2da42aef3ec669a9a40cf0839/stcal-1.12.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:73424e9d6013af9044deeab596e3066ff7cf7bf09ea2d28ab0d8eb39282c8514", size = 1056296 },
-    { url = "https://files.pythonhosted.org/packages/a1/37/c96a61530d2bee04807346084e08934023ca148bb46173e8c20cec436b1f/stcal-1.12.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:ce0d3b8f9f22c01e044e5b113a759fea966c1751666fac75167cca4c01732701", size = 2791657 },
+    { url = "https://files.pythonhosted.org/packages/b4/91/adae6d1cc077b9a2a20edcf90a455c3ab358ae747100d9082792d2a11cf4/stcal-1.14.1-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:2e06b362d9964f585d933787df50cf37c9d96babd904cf147bf2720a57ee4b95", size = 974241 },
+    { url = "https://files.pythonhosted.org/packages/9c/e4/ecf76330e95b68fe7d3ce675ee42350b6b99ca227b312ecb80adabddcf67/stcal-1.14.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:3221ca535420c5c74eac48aefe7f8f397676f2bb81577971223c27d10d8e4c02", size = 952536 },
+    { url = "https://files.pythonhosted.org/packages/b5/20/37b8819e7914dc90bc09d72f9744ec7dfc000132d53740919f5909222e08/stcal-1.14.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6aed2dd26fe54ced0ea1b981bf4e3e41f9193068003e3f50d8301970e799a62b", size = 2561223 },
+    { url = "https://files.pythonhosted.org/packages/09/f8/daa7425fd72fc7d09dbc1f69b5126e4c4010929b49b6a1d494698fd14098/stcal-1.14.1-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:b26298a787d967bf9e94eb1917c0fa0740bd9e650149baf51e8156ca8b8bd397", size = 970750 },
+    { url = "https://files.pythonhosted.org/packages/ef/30/d99b21ccf9a0bb1a02bd3f8d4f61b687d978f594ce4d7b1036913c8c4c87/stcal-1.14.1-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:60e1d433bbae8aaa5efc609b4826ad9f0bbae4a95476d233210dbc0b767d2224", size = 949756 },
+    { url = "https://files.pythonhosted.org/packages/eb/bd/d70d6ab0ad6f96f0bb20106cc18a464085b8db5c89c29402870513a71801/stcal-1.14.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:94caaac4880cca8fa6bc3f8f42eb5e0aa9fb4b3f094828135832880377b2d35e", size = 2547489 },
 ]
 
 [[package]]
 name = "stdatamodels"
-version = "3.0.2"
+version = "4.0.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "asdf" },
@@ -2447,14 +2449,14 @@ dependencies = [
     { name = "astropy" },
     { name = "numpy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/71/b2/a8f166a6df5b9f08185d0bf45ae70b84cd55a3f9c23258ba89c98cfba2c9/stdatamodels-3.0.2.tar.gz", hash = "sha256:91a0a27d08833e219e93177d1dc5939f26d92e15ca31211e2cb5b8f2d901db3f", size = 490018 }
+sdist = { url = "https://files.pythonhosted.org/packages/8f/11/f249b5cdccce3286e11556b5cd07639c37a5d24f61ec4da75384c2db92b7/stdatamodels-4.0.1.tar.gz", hash = "sha256:f120645b59f1f2c4fa8818894f0e38a1af28abd943ae22b2d4f6d952b0e3ddd3", size = 510644 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/62/0e/ac81ca5b42daec31cd551b906d21ef6855799b9b8c69de2bcc292b9f0197/stdatamodels-3.0.2-py3-none-any.whl", hash = "sha256:facd2796a06726459d03bcce4aed0b21de8c9085e5fa44838c89b9e1648c17c2", size = 327918 },
+    { url = "https://files.pythonhosted.org/packages/57/f1/5b5a1ce137fcc8ce286735885ad6d3c2b3b8513a1d8cfffd5cf85fe2de32/stdatamodels-4.0.1-py3-none-any.whl", hash = "sha256:ec50b2db659cbdbf401de1ca933f872243bf8386c939c2c8d7c4db547075db25", size = 361859 },
 ]
 
 [[package]]
 name = "stpipe"
-version = "0.8.1"
+version = "0.10.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "asdf" },
@@ -2463,9 +2465,9 @@ dependencies = [
     { name = "importlib-metadata" },
     { name = "pyyaml" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/dc/c5/1a48c9d8f046ea95140b2e9dce98cf3d9f6bf4155f955afc4d96fe1897e0/stpipe-0.8.1.tar.gz", hash = "sha256:e2a065a34a43c6965d3253e39e931f42edb79544b031088c9e204c8ba1676daf", size = 142350 }
+sdist = { url = "https://files.pythonhosted.org/packages/a9/f2/d56e2d674fec70751f818b3612cc6f83df8299a92f45f7a7756220a9524a/stpipe-0.10.0.tar.gz", hash = "sha256:616c54d70ae98a43a666b1be19001d2e198694d02a85cdfb66acff799746befc", size = 142964 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/6e/f7/fdfb643b7186ef10a371409939f3f342d1d9cbecf8b4d2a7b73c5f6568aa/stpipe-0.8.1-py3-none-any.whl", hash = "sha256:1beda913be6de546dfbb32531a240b3ddd12344802e4752a02b447848f20985b", size = 58468 },
+    { url = "https://files.pythonhosted.org/packages/c2/78/12eed5bc290e5213b51ffc84f7b41ea4afb35888535f9ca337d24c9949a7/stpipe-0.10.0-py3-none-any.whl", hash = "sha256:bae4df0d6236cc51136cc48d29c272fd00bff326949077e971b26385d19ccb53", size = 57301 },
 ]
 
 [[package]]
@@ -2560,14 +2562,14 @@ wheels = [
 
 [[package]]
 name = "tifffile"
-version = "2025.6.11"
+version = "2025.10.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "numpy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/11/9e/636e3e433c24da41dd639e0520db60750dbf5e938d023b83af8097382ea3/tifffile-2025.6.11.tar.gz", hash = "sha256:0ece4c2e7a10656957d568a093b07513c0728d30c1bd8cc12725901fffdb7143", size = 370125 }
+sdist = { url = "https://files.pythonhosted.org/packages/a8/13/1dcd158fdcd99d697ba60af153db5034613011516fc0b37a4ca0b7e61b66/tifffile-2025.10.4.tar.gz", hash = "sha256:2e437c16ab211be5bcdc79f71b4907359115f1f83b5d919e7c297c29725d3e38", size = 369486 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/3a/d8/1ba8f32bfc9cb69e37edeca93738e883f478fbe84ae401f72c0d8d507841/tifffile-2025.6.11-py3-none-any.whl", hash = "sha256:32effb78b10b3a283eb92d4ebf844ae7e93e151458b0412f38518b4e6d2d7542", size = 230800 },
+    { url = "https://files.pythonhosted.org/packages/6e/ff/e2f8dae90fb642b4b6f24464a2f96a3dc3b69151c51f7db24433be0f3f56/tifffile-2025.10.4-py3-none-any.whl", hash = "sha256:7687d691e49026053181470cec70fa9250e3a586b2041041297e38b10bbd34e1", size = 230357 },
 ]
 
 [[package]]
@@ -2612,7 +2614,7 @@ wheels = [
 
 [[package]]
 name = "tweakwcs"
-version = "0.8.11"
+version = "0.8.12"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "astropy" },
@@ -2623,9 +2625,9 @@ dependencies = [
     { name = "stsci-imagestats" },
     { name = "stsci-stimage" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/42/e8/0c6e24136035584fd8e77df5c5524bb117ad5a338955f8963bca9d51161f/tweakwcs-0.8.11.tar.gz", hash = "sha256:ed5f772160a079ef9cecb529ee0b13b81247e8f7b755021355d316cc62e6892f", size = 160893 }
+sdist = { url = "https://files.pythonhosted.org/packages/8c/1b/a02f51e098c377f2cdb18dbf1fdc99474e04c2dd11d0cb75cdc5f2bae949/tweakwcs-0.8.12.tar.gz", hash = "sha256:a6430c258cb2cc925514640ec280af85ec3c3faa77ecdf1f019011184f5ff3dc", size = 160829 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c1/6b/9a454170447820567d111dfd445b09752ac4e7f9f3f9f8ffc9c576ee9f16/tweakwcs-0.8.11-py3-none-any.whl", hash = "sha256:9ce626b052c13b9d8749facb9a389d9f02c793daf660f071dacf7e6addf2f8d3", size = 161638 },
+    { url = "https://files.pythonhosted.org/packages/3c/26/7c0a100d317c5cc7f6f0793c7ecee804ee63436b69090cf63e1292db5a2f/tweakwcs-0.8.12-py3-none-any.whl", hash = "sha256:6842a1a40babf48a67bc1b4802d73a56ffafc67522907c5828fd6fd61360bd85", size = 161526 },
 ]
 
 [[package]]
