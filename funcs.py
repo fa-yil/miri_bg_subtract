@@ -1,4 +1,5 @@
 import numpy as np
+import os
 import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Button
@@ -21,6 +22,10 @@ from astropy.io import fits
 from astropy.utils.data import download_file
 from astropy.visualization import astropy_mpl_style, simple_norm
 from astropy.wcs import WCS
+from astropy.io import fits
+
+import glob
+from jwst.datamodels import ImageModel
 
 matplotlib.use('TkAgg') # Use TkAgg backend for interactive plotting
 
@@ -128,6 +133,7 @@ def cube_viewer(image_data, wcs, initial_index=0, cmap="inferno"):
     plt.show()
 
 def multiple_cube_viewer(cubes, wcs_list=None, axis=0, cmap='magma', layout='vertical'):
+
     """
     Create multiple interactive viewers for 3D FITS data cubes, each with its own slider.
 
@@ -183,3 +189,40 @@ def multiple_cube_viewer(cubes, wcs_list=None, axis=0, cmap='magma', layout='ver
         slider.on_changed(make_update_func(slider, im, ax, cube, i))
 
     plt.show()
+
+def header_checker(folder_path, keyword_filters=None, name_contains=None, endswith="_uncal.fits"):
+    """
+    Go through JWST _uncal.fits files in a folder and check specified header keywords.
+    
+    Parameters:
+    - folder_path (str): Path to the folder containing FITS files.
+    - keyword_filters (list): List of FITS header keywords to extract (e.g., ['CHANNEL', 'BAND']).
+    - name_contains (str): Optional substring the filename must contain (e.g., '04').
+    
+    Returns:
+    - results (list of dict): Header values for matching files.
+    """
+    results = []
+
+    for filename in os.listdir(folder_path):
+        if filename.endswith(endswith) and (name_contains in filename if name_contains else True):
+            filepath = os.path.join(folder_path, filename)
+            try:
+                with fits.open(filepath) as hdul:
+                    header = hdul[0].header  # primary header
+                    data = {'filename': filename}
+                    for key in keyword_filters or []:
+                        data[key] = header.get(key, 'N/A')
+                    results.append(data)
+            except Exception as e:
+                print(f"Error reading {filename}: {e}")
+
+    return results
+
+
+
+
+
+
+
+
