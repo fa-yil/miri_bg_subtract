@@ -6,6 +6,7 @@ papers/
 
 data/
 miri_notebook/.ipynb_checkpoints/
+miri_notebook/mrs_data/
 miri_notebook/poststage3/
 miri_notebook/stage3/
 miri_notebook/stage2/
@@ -13,4 +14,5 @@ miri_notebook/stage1/
 miri_notebook/uncal_files/
 miri_notebook/mrs_demo_data/
 *.jpg
+*.png
 notes.txt
