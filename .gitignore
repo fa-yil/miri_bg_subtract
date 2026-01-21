@@ -13,6 +13,9 @@ miri_notebook/stage2/
 miri_notebook/stage1/
 miri_notebook/uncal_files/
 miri_notebook/mrs_demo_data/
+misc/__pycache__
+__pycache__
+
 *.jpg
 *.png
 notes.txt
