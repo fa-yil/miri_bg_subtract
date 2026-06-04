@@ -16,6 +16,7 @@ dependencies = [
     "pyqt5>=5.15.11",
     "regions>=0.10",
     "spectral-cube>=0.6.7",
+    "specutils>=2.2.0",
     "stpsf>=2.0.0",
 ]
 

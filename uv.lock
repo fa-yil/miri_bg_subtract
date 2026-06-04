@@ -716,6 +716,7 @@ dependencies = [
     { name = "pyqt5" },
     { name = "regions" },
     { name = "spectral-cube" },
+    { name = "specutils" },
     { name = "stpsf" },
 ]
 
@@ -737,6 +738,7 @@ requires-dist = [
     { name = "pyqt5", specifier = ">=5.15.11" },
     { name = "regions", specifier = ">=0.10" },
     { name = "spectral-cube", specifier = ">=0.6.7" },
+    { name = "specutils", specifier = ">=2.2.0" },
     { name = "stpsf", specifier = ">=2.0.0" },
 ]
 
@@ -1602,6 +1604,21 @@ wheels = [
 ]
 
 [[package]]
+name = "ndcube"
+version = "2.4.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "astropy" },
+    { name = "gwcs" },
+    { name = "numpy" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/48/90/6fa6a3d7deb4718f7585fb86c81b92cbf2cdc0a27270ab73fd24dbbceb56/ndcube-2.4.0.tar.gz", hash = "sha256:1cc77afdf7056c7619d2a973117bd8ea7ae2977ee0b8c9b663498374e5ff848c", size = 718393 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/cf/18/781198339976245b53c4f6862b1781c3be27132be45f1f0e340027228c9c/ndcube-2.4.0-py3-none-any.whl", hash = "sha256:c572c8e03b58ce69e23cce36e08b0c1f285657df38ed0ce37ef34e163af5c0e0", size = 171107 },
+]
+
+[[package]]
 name = "nest-asyncio"
 version = "1.6.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2259,18 +2276,18 @@ wheels = [
 
 [[package]]
 name = "regions"
-version = "0.10"
+version = "0.11"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "astropy" },
     { name = "numpy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/84/09/44eb30f64ae002ca47d53d341e7f0d0b03bc5682b4ccc2ea96f044ff6e89/regions-0.10.tar.gz", hash = "sha256:961c518ea044268de0003a17953de3d4984623e9d47ad5424c100f6967e69a81", size = 673343 }
+sdist = { url = "https://files.pythonhosted.org/packages/72/aa/a2fd8cbf0b2149eeb4adeccfbdc099a88ae45214fe81fb7eab045ac79bd5/regions-0.11.tar.gz", hash = "sha256:000adad78a2de9669a089a1e1fe829ae12ac4e863b5de346ee95723fc6dcae36", size = 672696 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ce/69/f0bbe0bb8d8be7ff3207eb8e021e80ad7ee9009e41d9986be3e95bce79ed/regions-0.10-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:d79dd921c311b1084be79942b4ab2a07df055952c24770b9c4be12a6f71b7b82", size = 325566 },
-    { url = "https://files.pythonhosted.org/packages/52/3b/d5600ae320f883201fedc37d63d0f036f2fc09e76781e802d969d07394b1/regions-0.10-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:dde792254f1dfed111e0bcea904d0004daa6511e8040c53bcb2f0bd25b518021", size = 323609 },
-    { url = "https://files.pythonhosted.org/packages/69/6e/519b56aabf03e6d152c91745316ed7cc0480c52a1f9bec8bb6def257c327/regions-0.10-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9f04830e9c6950da0bf185409409a4dac7e9b951739b92d0d8116b8868097d34", size = 1029267 },
-    { url = "https://files.pythonhosted.org/packages/e6/3a/80bb65d72272906a7bd95537916f7ca374590c6c5c5dec9830e32300246d/regions-0.10-cp312-cp312-win_amd64.whl", hash = "sha256:e1f5c5b924afd5285b42cdf0ab9cfeb72739765b80eb3db80c7bea42fc030970", size = 344482 },
+    { url = "https://files.pythonhosted.org/packages/28/32/0b30c98a2c8602ebef0954ad0ee07e152cc0f5ef5bd4b9c0bd5377e458e7/regions-0.11-cp311-abi3-macosx_10_9_x86_64.whl", hash = "sha256:a478206e4af0c824a41d8c1a184bd46304876c08757fb3b6a1064cb0296ae9a3", size = 315637 },
+    { url = "https://files.pythonhosted.org/packages/99/50/2f5e1d8cea3cea0dddc5d73c2f259742312f462d46feafcca660f7b5a780/regions-0.11-cp311-abi3-macosx_11_0_arm64.whl", hash = "sha256:1639e82278deb88c9321f9a4cbc3f2c31dc39d57b18f4c76d51e1a9495a939fc", size = 321951 },
+    { url = "https://files.pythonhosted.org/packages/97/ef/dae62c1ab18c7a65ea9dedc392477dd3d401c7363d37cfe0d5e14ccf4201/regions-0.11-cp311-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl", hash = "sha256:9bac79ffc6f655c2a38970235bf183bde4df79bc01ebb099296c13bc1fb2c888", size = 851688 },
+    { url = "https://files.pythonhosted.org/packages/64/33/6beef26e2ed17067fc816f7281da19860bf29577c55f67e2b7f3090ea165/regions-0.11-cp311-abi3-win_amd64.whl", hash = "sha256:806337cb3dfed92a5726ba94be09ad0b5d776581a7652c310a77655f80407082", size = 336955 },
 ]
 
 [[package]]
@@ -2510,6 +2527,24 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/75/31/7d6f498c7ca1a089b4dc44b9670fc37b4398cef58ce32b04b9e595b0d496/spectral_cube-0.6.7.tar.gz", hash = "sha256:6e2c08558697fce837edd0073f475360fac1460074ea359a96ce0b2e6de675e4", size = 264445 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f2/3f/585ee1d9659bad8c51529f0a6efff4222c5724700f5d16d374d37152e53b/spectral_cube-0.6.7-py3-none-any.whl", hash = "sha256:1c7052235fe23bac9715934434185350d86ffd64185029f55b7c9a00b64a8c76", size = 228862 },
+]
+
+[[package]]
+name = "specutils"
+version = "2.2.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "asdf" },
+    { name = "asdf-astropy" },
+    { name = "astropy" },
+    { name = "gwcs" },
+    { name = "ndcube" },
+    { name = "numpy" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/37/44/e3bd3c55f79de18007e64711e2b5e7e7df9ca671d223310283b73f3d659c/specutils-2.2.0.tar.gz", hash = "sha256:ebd7db759bca6884250f7b9b4071d995fab639896c672c66b706c98a15da9efd", size = 6621511 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/85/86/290369a753af101916de41a20d445f5e0968cfa05597d187af445683eab9/specutils-2.2.0-py3-none-any.whl", hash = "sha256:66fde3e399be51650b76dc24ec38445a2dcf743024665fa0c64a1c7837d427fe", size = 4943684 },
 ]
 
 [[package]]
