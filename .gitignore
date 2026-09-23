@@ -3,8 +3,9 @@
 
 # Ignore the some folders
 papers/
-
+misc/
 data/
+miri_notebook/*.pdf
 miri_notebook/.ipynb_checkpoints/
 miri_notebook/mrs_data/
 miri_notebook/poststage3/
